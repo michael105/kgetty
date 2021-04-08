@@ -7,7 +7,7 @@ kgetty reads the loginname, and calls ksu for authorization.
 
 kgetty-persistent asks kerberos for a ticket, and keeps it.
 So you are able to login once with your password, 
-and don't need to enter when logging in on other virtual terminals.
+and don't need to enter it again when logging in on other virtual terminals.
 Therefore it's only usable for local logins.
 
 
@@ -20,7 +20,7 @@ All wrappers do need a running and configured kerberos server.
 
 Compiled statically with minilib (https://github.com/michael105/minilib) kgetty and kgetty-persistent do have 4.8kB and 3.7kB; su 658 Bytes and ksudo 921 Bytes.
 
-Within the tools there is no cryptograhy involved, they just call the kerberos tools.
+Within the tools there is no cryptography involved, they just call the kerberos tools.
 
 Please note, kerberos is not everywhere legal. 
 (Something I don't get, but it's not my business.)
