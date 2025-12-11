@@ -27,3 +27,4 @@ Please note, kerberos is not everywhere legal.
 
 The code of the getty's is based on the suckless' getty.
 
+Within ./bin/ there are statically linked binaries for linux x64.
